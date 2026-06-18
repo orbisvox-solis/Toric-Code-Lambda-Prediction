@@ -172,7 +172,7 @@ class Predictor(
 
         self.linear_layer_4 = nn.Linear(
             in_features = 64,
-            out_features = 32 
+            out_features = 128
         )
 
     # forward method of Predictor
